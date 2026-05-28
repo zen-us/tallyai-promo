@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TallyAI Pricing — One-Time Purchase, No Subscription | AI Bookkeeping for Google Sheets</title>
+<meta name="description" content="TallyAI pricing: one-time purchase from $12.99. 25+ profession-specific templates. Free open-source edition available. No subscription, no hidden fees.">
+<link rel="canonical" href="https://zen-us.github.io/tallyai-promo/pricing.html">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: #1a1a1a; background: #faf8f5; line-height: 1.6; }
+  .container { max-width: 960px; margin: 0 auto; padding: 0 24px; }
+  .hero { background: linear-gradient(135deg, #1a3a2a 0%, #2d5a3f 100%); color: white; padding: 60px 0 50px; text-align: center; }
+  .hero h1 { font-size: 2.4em; margin-bottom: 10px; letter-spacing: -1px; }
+  .hero .subtitle { font-size: 1.1em; opacity: 0.9; max-width: 550px; margin: 0 auto; }
+  .hero .price-highlight { font-size: 1.05em; opacity: 0.85; margin-top: 12px; }
+  .hero .price-highlight strong { color: #81C784; }
+  section { padding: 50px 0; }
+  section:nth-child(even) { background: white; }
+  h2 { font-size: 1.5em; margin-bottom: 20px; text-align: center; }
+  h3 { font-size: 1.15em; margin-bottom: 8px; color: #2d5a3f; }
+
+  /* Pricing cards */
+  .pricing-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 32px; }
+  .pricing-card { background: #f5f3f0; border-radius: 12px; padding: 32px 24px; text-align: center; display: flex; flex-direction: column; }
+  .pricing-card.featured { background: #1a3a2a; color: white; transform: scale(1.05); }
+  .pricing-card h3 { font-size: 1.3em; margin-bottom: 8px; color: inherit; }
+  .pricing-card.featured h3 { color: white; }
+  .pricing-card .price { font-size: 2em; font-weight: 700; margin: 12px 0 4px; }
+  .pricing-card .price-sub { font-size: 0.85em; opacity: 0.7; }
+  .pricing-card ul { list-style: none; margin: 20px 0; text-align: left; flex: 1; }
+  .pricing-card li { padding: 6px 0; font-size: 0.9em; }
+  .pricing-card li:before { content: "✓ "; color: #4CAF50; font-weight: 700; }
+  .pricing-card.featured li:before { color: #81C784; }
+  .pricing-card .cta-btn { display: inline-block; background: #4CAF50; color: white; padding: 12px 28px; border-radius: 6px; text-decoration: none; font-weight: 600; margin-top: 12px; }
+  .pricing-card .cta-btn:hover { background: #388E3C; }
+  .pricing-card.featured .cta-btn { background: #f57c00; }
+  .pricing-card.featured .cta-btn:hover { background: #e65100; }
+
+  /* Coupon banner */
+  .coupon-section { background: #FFF8E1; border: 2px dashed #FFD54F; border-radius: 12px; padding: 24px; text-align: center; margin: 24px 0; }
+  .coupon-section code { background: #fff3c4; padding: 4px 12px; border-radius: 4px; font-size: 1.2em; font-weight: 700; }
+
+  /* Template grid */
+  .template-group { margin-bottom: 32px; }
+  .template-group h3 { margin-bottom: 12px; font-size: 1.1em; color: #1a3a2a; }
+  .template-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .template-item { display: flex; justify-content: space-between; align-items: center; padding: 10px 16px; background: #f5f3f0; border-radius: 8px; text-decoration: none; color: inherit; transition: background 0.15s; }
+  .template-item:hover { background: #e8e4de; }
+  .template-item .name { font-size: 0.9em; }
+  .template-item .price-tag { font-weight: 600; color: #2d5a3f; font-size: 0.9em; white-space: nowrap; margin-left: 8px; }
+
+  /* Savings calculator */
+  .calc-box { background: #f0f7f0; border-radius: 12px; padding: 28px; margin: 24px 0; }
+  .calc-box h3 { margin-bottom: 12px; }
+  .calc-row { display: flex; gap: 16px; align-items: center; margin-bottom: 12px; flex-wrap: wrap; }
+  .calc-row label { font-weight: 500; min-width: 140px; }
+  .calc-row input { padding: 8px 12px; border: 2px solid #ddd; border-radius: 6px; font-size: 15px; width: 100px; }
+  .calc-row .result { font-size: 1.2em; font-weight: 700; color: #2d5a3f; }
+
+  .cta { display: inline-block; background: #4CAF50; color: white; padding: 14px 32px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 1.05em; }
+  .cta:hover { background: #388E3C; }
+
+  footer { background: #1a1a1a; color: #888; text-align: center; padding: 32px 0; font-size: 0.9em; }
+  footer a { color: #4CAF50; }
+
+  @media (max-width: 700px) { .pricing-cards { grid-template-columns: 1fr; } .pricing-card.featured { transform: none; } .template-grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+
+<section class="hero">
+  <div class="container">
+    <h1>Pricing</h1>
+    <p class="subtitle">One-time purchases. Pay once, own forever. Unlimited copies to your Google Drive.</p>
+    <p class="price-highlight">New users: use code <strong>SEED100</strong> for 75% off</p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="pricing-cards">
+      <div class="pricing-card">
+        <h3>Free Edition</h3>
+        <div class="price">$0</div>
+        <div class="price-sub">Open source</div>
+        <ul>
+          <li>50 entries</li>
+          <li>AI categorization</li>
+          <li>Quick Entry sidebar</li>
+          <li>Basic monthly reports</li>
+          <li>English only</li>
+        </ul>
+        <a href="https://github.com/zenH-jpg/tallyai" class="cta-btn">Get Free →</a>
+      </div>
+      <div class="pricing-card featured">
+        <h3>Pro Edition</h3>
+        <div class="price">$12.99</div>
+        <div class="price-sub">One-time · own forever</div>
+        <ul>
+          <li>Unlimited entries</li>
+          <li>CSV bank import</li>
+          <li>Multi-currency</li>
+          <li>AI-powered reports</li>
+          <li>Auto-learning</li>
+          <li>7 languages + voice</li>
+          <li>25+ profession templates</li>
+        </ul>
+        <a href="https://tallyai.etsy.com?coupon=SEED100" class="cta-btn">Buy Pro — $3.25 with code →</a>
+      </div>
+      <div class="pricing-card">
+        <h3>Freelancer Bundle</h3>
+        <div class="price">$27.99</div>
+        <div class="price-sub">4 templates · $7.00 each</div>
+        <ul>
+          <li>All Pro features</li>
+          <li>Bookkeeping + expense tracker</li>
+          <li>Tax deduction dashboard</li>
+          <li>Profit &amp; loss reports</li>
+          <li>Invoice tracking</li>
+        </ul>
+        <a href="https://www.etsy.com/listing/4512255461" class="cta-btn">Buy Bundle →</a>
+      </div>
+    </div>
+
+    <div class="coupon-section">
+      <p style="font-size:1.1em;margin-bottom:8px;">🎉 Launch Promotion</p>
+      <p>Use code <code>SEED100</code> at checkout for <strong>75% off</strong> any template</p>
+      <p style="font-size:0.85em;color:#888;margin-top:6px;">Limited to first 10 customers</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Savings Calculator</h2>
+    <p style="text-align:center;margin-bottom:20px;color:#666;">Compare TallyAI's one-time cost vs subscription bookkeeping apps</p>
+    <div class="calc-box">
+      <h3>💰 How much do you save?</h3>
+      <div class="calc-row">
+        <label>Monthly app cost:</label>
+        <input type="number" id="monthlyCost" value="15" min="0" step="5" oninput="calc()">
+        <span style="color:#888;">$/month</span>
+      </div>
+      <div class="calc-row">
+        <label>Months you'll use it:</label>
+        <input type="number" id="months" value="24" min="1" step="6" oninput="calc()">
+      </div>
+      <hr style="margin:12px 0;border:none;border-top:1px solid #ddd;">
+      <div class="calc-row">
+        <label>Total app cost:</label>
+        <span class="result" id="appCost">$360</span>
+      </div>
+      <div class="calc-row">
+        <label>TallyAI one-time:</label>
+        <span class="result" style="color:#4CAF50;" id="tallyCost">$12.99</span>
+      </div>
+      <div class="calc-row">
+        <label>💥 You save:</label>
+        <span class="result" style="color:#f57c00;font-size:1.4em;" id="savings">$347.01</span>
+      </div>
+      <p style="font-size:0.85em;color:#888;margin-top:8px;">TallyAI is a one-time purchase. Subscription apps charge monthly forever.</p>
+    </div>
+  </div>
+</section>
+
+<script>
+function calc() {
+  const monthly = parseFloat(document.getElementById('monthlyCost').value) || 0;
+  const months = parseInt(document.getElementById('months').value) || 1;
+  const appCost = monthly * months;
+  const tallyCost = monthly > 0 ? 12.99 : 12.99;
+  const savings = appCost - tallyCost;
+  document.getElementById('appCost').textContent = '$' + appCost.toFixed(2);
+  document.getElementById('tallyCost').textContent = '$' + tallyCost.toFixed(2);
+  document.getElementById('savings').textContent = '$' + Math.max(0, savings).toFixed(2);
+}
+calc();
+</script>
+
+<section>
+  <div class="container">
+    <h2>All Templates by Profession</h2>
+    <p style="text-align:center;margin-bottom:24px;color:#666;">25+ profession-specific versions — all powered by the same AI engine</p>
+
+    <div class="template-group">
+      <h3>📋 General Bookkeeping</h3>
+      <div class="template-grid">
+        <a href="https://www.etsy.com/listing/4511473106" class="template-item"><span class="name">AI Bookkeeping (General)</span><span class="price-tag">$12.99</span></a>
+        <a href="https://www.etsy.com/listing/4511473276" class="template-item"><span class="name">Small Business Expense Tracker</span><span class="price-tag">$12.99</span></a>
+        <a href="https://www.etsy.com/listing/4512065780" class="template-item"><span class="name">All-in-One Bookkeeping</span><span class="price-tag">$12.99</span></a>
+        <a href="https://www.etsy.com/listing/4512064581" class="template-item"><span class="name">Automated Bookkeeping (No Manual Entry)</span><span class="price-tag">$12.99</span></a>
+        <a href="https://www.etsy.com/listing/4512260778" class="template-item"><span class="name">Tax Deduction Spreadsheet</span><span class="price-tag">$12.99</span></a>
+        <a href="https://www.etsy.com/listing/4512259485" class="template-item"><span class="name">Freelance Invoice Tracker</span><span class="price-tag">$12.99</span></a>
+        <a href="https://www.etsy.com/listing/4512260794" class="template-item"><span class="name">Multiple Income / Side Hustle Tracker</span><span class="price-tag">$12.99</span></a>
+      </div>
+    </div>
+
+    <div class="template-group">
+      <h3>🌐 Special Features</h3>
+      <div class="template-grid">
+        <a href="https://www.etsy.com/listing/4512055462" class="template-item"><span class="name">Voice-Ready Bookkeeping</span><span class="price-tag">$12.99</span></a>
+        <a href="https://www.etsy.com/listing/4512064089" class="template-item"><span class="name">Multi-Language Bookkeeping (7 languages)</span><span class="price-tag">$12.99</span></a>
+        <a href="https://www.etsy.com/listing/4512064247" class="template-item"><span class="name">Etsy Seller Bookkeeping</span><span class="price-tag">$12.99</span></a>
+      </div>
+    </div>
+
+    <div class="template-group">
+      <h3>💼 Freelance & Creative</h3>
+      <div class="template-grid">
+        <a href="https://www.etsy.com/listing/4512274144" class="template-item"><span class="name">Photographer Expense Tracker</span><span class="price-tag">$14.99</span></a>
+        <a href="https://www.etsy.com/listing/4512421145" class="template-item"><span class="name">Graphic Designer Bookkeeping</span><span class="price-tag">$14.99</span></a>
+        <a href="https://www.etsy.com/listing/4512440462" class="template-item"><span class="name">Web Developer Tax Deduction Tracker</span><span class="price-tag">$14.99</span></a>
+        <a href="https://www.etsy.com/listing/4512421257" class="template-item"><span class="name">Social Media Manager Expenses</span><span class="price-tag">$14.99</span></a>
+        <a href="https://www.etsy.com/listing/4512274260" class="template-item"><span class="name">Freelance Writer Expense Log</span><span class="price-tag">$14.99</span></a>
+        <a href="https://www.etsy.com/listing/4512438703" class="template-item"><span class="name">Musician Expense Tracker</span><span class="price-tag">$14.99</span></a>
+        <a href="https://www.etsy.com/listing/4512421105" class="template-item"><span class="name">Virtual Assistant Expense Tracker</span><span class="price-tag">$14.99</span></a>
+      </div>
+    </div>
+
+    <div class="template-group">
+      <h3>🏃 Health & Fitness</h3>
+      <div class="template-grid">
+        <a href="https://www.etsy.com/listing/4512275152" class="template-item"><span class="name">Personal Trainer Expense Log</span><span class="price-tag">$14.99</span></a>
+        <a href="https://www.etsy.com/listing/4512438661" class="template-item"><span class="name">Yoga Instructor Expense Log</span><span class="price-tag">$14.99</span></a>
+      </div>
+    </div>
+
+    <div class="template-group">
+      <h3>🏪 Service & Trades</h3>
+      <div class="template-grid">
+        <a href="https://www.etsy.com/listing/4512273735" class="template-item"><span class="name">Salon Owner Bookkeeping</span><span class="price-tag">$14.99</span></a>
+        <a href="https://www.etsy.com/listing/4512438729" class="template-item"><span class="name">House Cleaner Expense Log</span><span class="price-tag">$12.99</span></a>
+        <a href="https://www.etsy.com/listing/4512423002" class="template-item"><span class="name">Dog Walker & Pet Sitter Expense Log</span><span class="price-tag">$12.99</span></a>
+        <a href="https://www.etsy.com/listing/4512440492" class="template-item"><span class="name">Handyman Service Expense Log</span><span class="price-tag">$12.99</span></a>
+        <a href="https://www.etsy.com/listing/4512440530" class="template-item"><span class="name">Baker & Caterer Expense Tracker</span><span class="price-tag">$14.99</span></a>
+        <a href="https://www.etsy.com/listing/4512259479" class="template-item"><span class="name">Restaurant Bookkeeping</span><span class="price-tag">$12.99</span></a>
+      </div>
+    </div>
+
+    <div class="template-group">
+      <h3>🏠 Real Estate & Property</h3>
+      <div class="template-grid">
+        <a href="https://www.etsy.com/listing/4512274222" class="template-item"><span class="name">Landlord Rental Property Tracker</span><span class="price-tag">$16.99</span></a>
+        <a href="https://www.etsy.com/listing/4512260768" class="template-item"><span class="name">Real Estate Agent Expense Tracker</span><span class="price-tag">$14.99</span></a>
+      </div>
+    </div>
+
+    <div class="template-group">
+      <h3>🎯 Business & Consulting</h3>
+      <div class="template-grid">
+        <a href="https://www.etsy.com/listing/4512272753" class="template-item"><span class="name">Consultant Business Tracker</span><span class="price-tag">$14.99</span></a>
+        <a href="https://www.etsy.com/listing/4512273687" class="template-item"><span class="name">Wedding Planner Budget Tracker</span><span class="price-tag">$14.99</span></a>
+      </div>
+    </div>
+
+    <div class="template-group">
+      <h3>📦 Bundles</h3>
+      <div class="template-grid">
+        <a href="https://www.etsy.com/listing/4512255461" class="template-item" style="background:#f0f7f0;"><span class="name"><strong>Freelancer Finance Bundle</strong> (4 templates)</span><span class="price-tag"><strong>$27.99</strong></span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container" style="text-align:center;">
+    <h2>Not sure which template fits?</h2>
+    <p style="margin-bottom:20px;">Start with the free edition — upgrade to Pro when you need more.</p>
+    <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;">
+      <a href="https://github.com/zenH-jpg/tallyai" class="cta" style="background:#555;">Free Edition →</a>
+      <a href="https://tallyai.etsy.com?coupon=SEED100" class="cta">Buy Pro — 75% Off →</a>
+    </div>
+    <p style="margin-top:12px;"><a href="index.html" style="color:#4CAF50;">← Back to Home</a> · <a href="features.html" style="color:#4CAF50;">See All Features</a></p>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>TallyAI — AI Smart Bookkeeping Template for Google Sheets</p>
+    <p style="margin-top:6px;"><a href="index.html">Home</a> · <a href="features.html">Features</a> · <a href="pricing.html">Pricing</a> · <a href="blog.html">Blog</a> · <a href="https://tallyai.etsy.com?coupon=SEED100">Buy on Etsy</a></p>
+  </div>
+</footer>
+
+</body>
+</html>
