@@ -1,0 +1,14 @@
+---
+# GitHub Pages config
+lsi: false
+safe: true
+source: .
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+# SEO
+title: "TallyAI — AI Bookkeeping for Google Sheets"
+description: "AI-powered bookkeeping template that auto-categorizes expenses from plain English. One-time purchase, no subscription."
+url: "https://zen-us.github.io/tallyai-promo"
+author: "TallyAI"
