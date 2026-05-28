@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FAQ — TallyAI AI Bookkeeping for Google Sheets</title>
+<meta name="description" content="Frequently asked questions about TallyAI: pricing, setup, data privacy, AI features, languages, and more.">
+<link rel="canonical" href="https://zen-us.github.io/tallyai-promo/faq.html">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: #1a1a1a; background: #faf8f5; line-height: 1.6; }
+  .container { max-width: 800px; margin: 0 auto; padding: 0 24px; }
+  .hero { background: linear-gradient(135deg, #1a3a2a 0%, #2d5a3f 100%); color: white; padding: 60px 0 50px; text-align: center; }
+  .hero h1 { font-size: 2.2em; margin-bottom: 10px; letter-spacing: -1px; }
+  .hero .subtitle { font-size: 1.05em; opacity: 0.9; }
+  section { padding: 50px 0; }
+  .faq-item { margin-bottom: 24px; border-bottom: 1px solid #eee; padding-bottom: 20px; }
+  .faq-item:last-child { border-bottom: none; }
+  .faq-item h3 { font-size: 1.1em; color: #1a3a2a; margin-bottom: 8px; cursor: pointer; }
+  .faq-item h3:hover { color: #4CAF50; }
+  .faq-item p { color: #555; }
+  .faq-item ul { margin: 8px 0 8px 20px; color: #555; }
+  .faq-item li { margin-bottom: 4px; }
+  .cta { display: inline-block; background: #4CAF50; color: white; padding: 12px 28px; border-radius: 8px; text-decoration: none; font-weight: 600; margin: 4px; }
+  .cta:hover { background: #388E3C; }
+  footer { background: #1a1a1a; color: #888; text-align: center; padding: 32px 0; font-size: 0.9em; }
+  footer a { color: #4CAF50; }
+  @media (max-width: 600px) { .hero h1 { font-size: 1.6em; } }
+</style>
+</head>
+<body>
+
+<section class="hero">
+  <div class="container">
+    <h1>Frequently Asked Questions</h1>
+    <p class="subtitle">Everything you need to know about TallyAI AI Bookkeeping</p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+
+    <div class="faq-item">
+      <h3>What is TallyAI?</h3>
+      <p>TallyAI is a Google Sheets template that uses AI to auto-categorize expenses from plain English descriptions. Instead of manually filling category columns, you just type what you spent — the AI extracts the date, amount, and category automatically.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Do I need to know Google Sheets?</h3>
+      <p>Basic familiarity is enough. If you can open a spreadsheet and type text, you can use TallyAI. The AI handles all the complex parts — categorization, calculations, and reports.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Do I need a ChatGPT or OpenAI API key?</h3>
+      <p><strong>No.</strong> The AI runs entirely within Google Sheets using built-in pattern matching and Google Apps Script. No external API keys, no ChatGPT account, no subscriptions. Your data never leaves your Google account.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Is my financial data safe?</h3>
+      <p><strong>Yes.</strong> Everything stays in your Google account. TallyAI does not send your data to any external servers, third parties, or cloud AI services. The AI runs locally within your spreadsheet. Compare this to bookkeeping apps that store all your financial data on their servers.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Is this a one-time purchase?</h3>
+      <p><strong>Yes.</strong> You pay once and own the template forever. You can make unlimited copies to your own Google Drive. There are no monthly fees, no subscription tiers, no hidden charges. The free edition on GitHub is also available forever at no cost.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>How does the AI categorization work?</h3>
+      <p>When you type an expense description like "coffee 4.50", the AI:</p>
+      <ul>
+        <li>Extracts the amount ($4.50)</li>
+        <li>Detects the date (today or a mentioned date)</li>
+        <li>Matches keywords to the correct category (Food & Drink)</li>
+        <li>Fills all three columns automatically</li>
+      </ul>
+      <p>If the AI gets a category wrong, you can correct it — the AI remembers for next time. This auto-learning means the template gets smarter the more you use it.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>What's the difference between Free and Pro?</h3>
+      <table style="width:100%;border-collapse:collapse;margin:12px 0;">
+        <tr style="background:#1a3a2a;color:white;"><th style="padding:8px 12px;text-align:left;">Feature</th><th style="padding:8px 12px;text-align:center;">Free</th><th style="padding:8px 12px;text-align:center;">Pro</th></tr>
+        <tr style="background:#f5f3f0;"><td style="padding:8px 12px;">Entry limit</td><td style="padding:8px 12px;text-align:center;">50</td><td style="padding:8px 12px;text-align:center;">Unlimited</td></tr>
+        <tr><td style="padding:8px 12px;">AI categorization</td><td style="padding:8px 12px;text-align:center;">✅</td><td style="padding:8px 12px;text-align:center;">✅</td></tr>
+        <tr style="background:#f5f3f0;"><td style="padding:8px 12px;">CSV bank import</td><td style="padding:8px 12px;text-align:center;">—</td><td style="padding:8px 12px;text-align:center;">✅</td></tr>
+        <tr><td style="padding:8px 12px;">Multi-currency</td><td style="padding:8px 12px;text-align:center;">—</td><td style="padding:8px 12px;text-align:center;">✅</td></tr>
+        <tr style="background:#f5f3f0;"><td style="padding:8px 12px;">Languages</td><td style="padding:8px 12px;text-align:center;">English only</td><td style="padding:8px 12px;text-align:center;">7 languages</td></tr>
+        <tr><td style="padding:8px 12px;">Auto-learning</td><td style="padding:8px 12px;text-align:center;">—</td><td style="padding:8px 12px;text-align:center;">✅</td></tr>
+        <tr style="background:#f5f3f0;"><td style="padding:8px 12px;">Price</td><td style="padding:8px 12px;text-align:center;"><strong>$0</strong></td><td style="padding:8px 12px;text-align:center;"><strong>$12.99</strong></td></tr>
+      </table>
+    </div>
+
+    <div class="faq-item">
+      <h3>Can I use TallyAI on my phone?</h3>
+      <p>Yes. TallyAI works in the Google Sheets mobile app on iOS and Android. You can type expenses directly, or use your phone's voice dictation — tap the microphone on your keyboard and say "client invoice 1500" for hands-free bookkeeping.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Which languages are supported?</h3>
+      <p>The Pro edition supports 7 languages: English, Chinese (中文), Spanish (Español), French (Français), German (Deutsch), Portuguese (Português), and Japanese (日本語). The AI understands category keywords in each language.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>How do I import bank statements?</h3>
+      <p>In the Pro edition, you can upload your bank's CSV export directly. The AI categorizes your entire transaction history automatically. Most bank and credit card CSVs are supported. The AI flags any uncertain transactions for your review.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>What if I need a custom category?</h3>
+      <p>You can add custom categories directly in the Categories sheet. The AI automatically adapts and starts recognizing expenses for your new categories. This makes TallyAI flexible for any business type.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Do I need internet access?</h3>
+      <p>Yes, TallyAI requires internet access to run in Google Sheets. However, if you enable Google Drive offline mode, you can view your data without internet. AI categorization requires internet to process descriptions.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Which professions have specific templates?</h3>
+      <p>TallyAI has 25+ profession-specific versions including: photographers, graphic designers, personal trainers, salon owners, real estate agents, Etsy sellers, landlords, wedding planners, consultants, freelance writers, web developers, musicians, social media managers, virtual assistants, dog walkers, house cleaners, handymen, bakers, caterers, yoga instructors, restaurant owners, and more.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Can I share the template with my accountant?</h3>
+      <p>Yes. Since the template lives in Google Sheets, you can share it like any other Google Doc. Your accountant can view or edit the data. The expense reports and monthly summaries are easy to export or print.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Is there a refund policy?</h3>
+      <p>Since TallyAI is a digital product, Etsy's standard digital item policy applies. If you have issues with the template, contact support through Etsy.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>How is TallyAI different from Wave or QuickBooks?</h3>
+      <p>TallyAI is a Google Sheets template, not a full accounting app. It's lighter, cheaper (one-time $12.99 vs $15+/month), and gives you full control over your data. QuickBooks excels at payroll and automated bank feeds — TallyAI excels at simplicity and AI categorization for solo freelancers. <a href="comparison.html" style="color:#4CAF50;">See full comparison →</a></p>
+    </div>
+
+  </div>
+</section>
+
+<section style="text-align:center;background:white;">
+  <div class="container">
+    <h2>Still have questions?</h2>
+    <p style="margin-bottom:16px;">Check the open-source code or reach out through GitHub Issues.</p>
+    <a href="https://github.com/zenH-jpg/tallyai" class="cta" style="background:#555;">GitHub Repo</a>
+    <a href="https://tallyai.etsy.com?coupon=SEED100" class="cta">Buy on Etsy</a>
+    <p style="margin-top:12px;"><a href="index.html" style="color:#4CAF50;">← Back to Home</a></p>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>TallyAI — AI Smart Bookkeeping Template for Google Sheets</p>
+    <p style="margin-top:6px;"><a href="index.html">Home</a> · <a href="features.html">Features</a> · <a href="pricing.html">Pricing</a> · <a href="comparison.html">Comparison</a> · <a href="blog.html">Blog</a> · <a href="faq.html">FAQ</a> · <a href="https://tallyai.etsy.com?coupon=SEED100">Buy on Etsy</a></p>
+  </div>
+</footer>
+
+</body>
+</html>
